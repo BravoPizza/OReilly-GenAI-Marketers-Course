@@ -1,0 +1,130 @@
+{
+  "customer_id": "C12345",
+  "demographics": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "age": 28,
+    "gender": "Male",
+    "location": {
+      "city": "New York",
+      "state": "NY",
+      "zip_code": "10001"
+    },
+    "income": 55000,
+    "occupation": "Software Engineer",
+    "marital_status": "Single"
+  },
+  "psychographics": {
+    "interests": ["Technology", "Gaming", "Fast Food", "Fitness"],
+    "values": ["Convenience", "Affordability", "Quick Service"]
+  },
+  "transactional_data": [
+    {
+      "order_id": "ORD001",
+      "date": "2024-10-01",
+      "items": [
+        { "item": "Cheeseburger", "quantity": 1, "price": 3.99 },
+        { "item": "Fries", "quantity": 1, "price": 2.49 },
+        { "item": "Coke", "quantity": 1, "price": 1.99 }
+      ],
+      "total_amount": 8.47,
+      "payment_method": "Credit Card",
+      "store": {
+        "store_id": "NYC_001",
+        "store_location": "New York, NY"
+      }
+    },
+    {
+      "order_id": "ORD002",
+      "date": "2024-09-28",
+      "items": [
+        { "item": "Chicken Nuggets", "quantity": 6, "price": 4.99 },
+        { "item": "Milkshake", "quantity": 1, "price": 2.99 }
+      ],
+      "total_amount": 7.98,
+      "payment_method": "Mobile Payment",
+      "store": {
+        "store_id": "NYC_001",
+        "store_location": "New York, NY"
+      }
+    }
+  ],
+  "engagement_data": {
+    "email_interactions": [
+      {
+        "campaign": "Weekly Deals",
+        "open_date": "2024-09-26",
+        "click_date": "2024-09-26",
+        "clicked_links": ["Order Now"]
+      },
+      {
+        "campaign": "New Menu Items",
+        "open_date": "2024-10-02",
+        "click_date": null,
+        "clicked_links": []
+      }
+    ],
+    "app_usage": {
+      "last_login": "2024-10-01",
+      "total_logins": 15,
+      "loyalty_points": 120,
+      "order_history_viewed": true,
+      "special_offers_viewed": true
+    },
+    "social_media_engagement": [
+      {
+        "platform": "Instagram",
+        "interaction_type": "Like",
+        "post_id": "POST123",
+        "date": "2024-09-27"
+      },
+      {
+        "platform": "Facebook",
+        "interaction_type": "Comment",
+        "post_id": "POST124",
+        "comment": "Love the new menu items!",
+        "date": "2024-09-30"
+      }
+    ]
+  },
+  "behavioral_data": {
+    "purchase_frequency": "Weekly",
+    "preferred_items": ["Cheeseburger", "Fries", "Coke"],
+    "average_order_value": 8.00,
+    "order_times": ["Lunch", "Dinner"],
+    "preferred_order_method": "Mobile App",
+    "churn_risk": "Low"
+  },
+  "feedback_data": {
+    "reviews": [
+      {
+        "platform": "Google Reviews",
+        "rating": 4,
+        "comment": "Good service, food could be hotter",
+        "date": "2024-09-20"
+      },
+      {
+        "platform": "Yelp",
+        "rating": 5,
+        "comment": "Fast and delicious!",
+        "date": "2024-10-01"
+      }
+    ],
+    "survey_responses": {
+      "satisfaction_score": 9,
+      "improvement_suggestions": "Offer more healthy menu options."
+    }
+  },
+  "crm_data": {
+    "contact_preference": "Email",
+    "last_contacted": "2024-09-30",
+    "opted_in_for_promotions": true,
+    "loyalty_tier": "Gold"
+  },
+  "predictive_analytics": {
+    "predicted_next_order_date": "2024-10-08",
+    "predicted_lifetime_value": 1000,
+    "churn_probability": 0.05,
+    "cross_sell_recommendations": ["Salad", "Smoothie"]
+  }
+}
